@@ -1,0 +1,106 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 60px 0;
+}
+.navigation__title {
+  font-family: Unica One, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.25em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.navigation__search {
+  display: flex;
+  font-size: 16px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.375;
+}
+.navigation__filter, .navigation__sort {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  min-width: 115px;
+}
+.navigation__label {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+  text-align: center;
+  padding: 0;
+}
+.navigation__select {
+  background-color: transparent;
+  font-weight: 700;
+  padding: 6px 6px 6px 28px;
+  color: #333;
+  border: 0;
+  margin: 0;
+  max-width: 100%;
+  margin-right: 15px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  text-align: center;
+  padding: 12.5px;
+  border-color: #f7f7f7;
+  border-style: solid;
+  border-width: 0 0 1px;
+  color: #666;
+  max-width: 346px;
+  z-index: 1;
+}
+.product__image {
+  width: 100%;
+  border: 0;
+  margin-bottom: 60px;
+}
+.product__name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #030303;
+  white-space: normal;
+}
+.product__price {
+  font-size: 0.875em;
+}
+.product__avail {
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  color: #006eff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 20px;
+  background-color: #f7f7f7;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

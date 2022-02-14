@@ -1,0 +1,16 @@
+@import 'navigation.scss';
+@import 'products.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 20px;
+  background-color: #f7f7f7;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
