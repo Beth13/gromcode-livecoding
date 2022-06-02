@@ -2,8 +2,12 @@ import React from 'react';
 
 // input: obj ({onLogin: callback})
 // output: jsx
-const Login = props => {
-  return <button className="btn login">Login</button>;
+const Login = ({ onLogin }) => {
+  return (
+    <button className="btn login" onClick={onLogin}>
+      Login
+    </button>
+  );
 };
 
 export default Login;
